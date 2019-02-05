@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_traiteur"
+                android:icon="@drawable/ic_traiteur_black"
+                android:title="Service Traiteur"/>
+        <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/ic_restaurant_black"
+                android:title="Nourritures"/>
+        <item
+                android:id="@+id/nav_customer"
+                android:icon="@drawable/img_user"
+                android:title="Clients"/>
+        <item
+                android:id="@+id/nav_maps"
+                android:icon="@drawable/img_location_black_24dp"
+                android:title="Geolocalisation"/>
+    </group>
+
+    <item android:title="Menu secondaire">
+        <menu>
+            <item
+                    android:id="@+id/nav_paiement"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Paiement"/>
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="a propos de ..."/>
+        </menu>
+    </item>
+
+</menu>
